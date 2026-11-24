@@ -18,6 +18,14 @@ dev = [
     "ruff>=0.17.5",
 ]
 
+analysis = [
+    "numpy",
+    "pandas",
+    "ipykernel",
+    "nbformat",
+    "nbclient",
+]
+
 [tool.ruff]
 line-length = 128
 target-version = "py314"
